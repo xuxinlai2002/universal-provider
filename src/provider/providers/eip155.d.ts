@@ -1,0 +1,32 @@
+import { IProvider, HttpRpcProviderMap } from "../types";
+import { EventEmitter } from "events";
+import { SignClient } from "../../packages/sign-client/client";
+import { RequestParams, SessionNamespace, SubProviderOpts } from "@okxconnect/core";
+import { SessionTypes } from "@okxconnect/core";
+declare class Eip155Provider implements IProvider {
+    name: string;
+    client: SignClient;
+    chainId: number;
+    namespace: SessionNamespace;
+    events: EventEmitter;
+    httpProviders: HttpRpcProviderMap;
+    constructor(opts: SubProviderOpts);
+    private isRecord;
+    private isArray;
+    private updateRequestParams;
+    private adaptArray;
+    request<T = unknown>(args: RequestParams): Promise<T>;
+    private addEthereumChain;
+    updateNamespace(namespace: SessionTypes.Namespace): void;
+    setDefaultChain(chainId: string, rpcUrl?: string | undefined): void;
+    requestAccounts(): string[];
+    getDefaultChain(): string;
+    private getAccounts;
+    private handleSwitchChain;
+    private isChainApproved;
+    private createHttpProvider;
+    private createHttpProviders;
+    private setHttpProvider;
+    private getHttpProvider;
+}
+export default Eip155Provider;

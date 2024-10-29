@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GENERIC_SUBPROVIDER_NAME = exports.RPC_URL = exports.STORAGE = exports.CONTEXT = exports.WC_VERSION = exports.PROTOCOL = exports.RELAY_URL = exports.LOGGER = void 0;
+exports.LOGGER = "error";
+exports.RELAY_URL = "wss://relay.walletconnect.com";
+exports.PROTOCOL = "wc";
+exports.WC_VERSION = 2;
+exports.CONTEXT = "universal_provider";
+exports.STORAGE = `${exports.PROTOCOL}@${exports.WC_VERSION}:${exports.CONTEXT}:`;
+exports.RPC_URL = "https://rpc.walletconnect.com/v1/";
+exports.GENERIC_SUBPROVIDER_NAME = "generic";
