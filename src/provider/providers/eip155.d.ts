@@ -1,8 +1,8 @@
 import { IProvider, HttpRpcProviderMap } from "../types";
 import { EventEmitter } from "events";
 import { SignClient } from "../../packages/sign-client/client";
-import { RequestParams, SessionNamespace, SubProviderOpts } from "@okxconnect/core";
-import { SessionTypes } from "@okxconnect/core";
+import { RequestParams, SessionNamespace, SubProviderOpts } from "@xuxinlai2002/core";
+import { SessionTypes } from "@xuxinlai2002/core";
 declare class Eip155Provider implements IProvider {
     name: string;
     client: SignClient;

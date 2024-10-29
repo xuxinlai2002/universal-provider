@@ -1,4 +1,4 @@
-import { NamespaceConfig, SessionTypes, ConnectNamespace } from "@okxconnect/core";
+import { NamespaceConfig, SessionTypes, ConnectNamespace } from "@xuxinlai2002/core";
 export declare function getRpcUrl(chainId: string, rpc: ConnectNamespace, projectId?: string): string | undefined;
 export declare function getChainId(chain: string): string;
 export declare function validateChainApproval(chain: string, chains: string[]): void;

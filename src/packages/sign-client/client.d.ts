@@ -1,4 +1,4 @@
-import { ISignClient, SessionTypes, DappMetadata } from "@okxconnect/core";
+import { ISignClient, SessionTypes, DappMetadata } from "@xuxinlai2002/core";
 export declare class SignClient extends ISignClient {
     readonly metadata: ISignClient["metadata"];
     session?: SessionTypes.Struct;

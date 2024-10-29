@@ -10,4 +10,4 @@ export class SignClient extends core_1.ISignClient {
     metadata: any;
     openOKXWallet(): void;
 }
-import core_1 = require("@okxconnect/core");
+import core_1 = require("@xuxinlai2002/core");

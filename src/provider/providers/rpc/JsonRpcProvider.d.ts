@@ -1,6 +1,6 @@
 import { EventEmitter } from "eventemitter3";
 import { IJSONRpcProvider, IJSONRpcConnection } from "../../types";
-import { JsonRpcRequest, JsonRpcPayload, RequestArguments } from "@okxconnect/core";
+import { JsonRpcRequest, JsonRpcPayload, RequestArguments } from "@xuxinlai2002/core";
 export declare class JsonRpcProvider extends IJSONRpcProvider {
     events: EventEmitter<string | symbol, any>;
     connection: IJSONRpcConnection;

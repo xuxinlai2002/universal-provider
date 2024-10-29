@@ -1,7 +1,7 @@
 import { IProvider } from "../types";
 import { SignClient } from "../../packages/sign-client/client";
-import { SessionTypes } from "@okxconnect/core";
-import { RequestParams, SessionNamespace, SubProviderOpts } from "@okxconnect/core";
+import { SessionTypes } from "@xuxinlai2002/core";
+import { RequestParams, SessionNamespace, SubProviderOpts } from "@xuxinlai2002/core";
 declare class TonProvider implements IProvider {
     readonly client: SignClient;
     readonly namespace: SessionNamespace;

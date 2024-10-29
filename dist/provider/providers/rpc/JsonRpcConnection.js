@@ -25,8 +25,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsonRpcConnection = void 0;
 const eventemitter3_1 = require("eventemitter3");
 const cross_fetch_1 = __importDefault(require("cross-fetch"));
-const core_1 = require("@okxconnect/core");
-const core_2 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
+const core_2 = require("@xuxinlai2002/core");
 const DEFAULT_HTTP_HEADERS = {
     Accept: "application/json",
     "Content-Type": "application/json",

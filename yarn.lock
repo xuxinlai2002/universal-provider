@@ -1273,25 +1273,6 @@
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@okxconnect/core@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@okxconnect/core/-/core-1.3.0.tgz"
-  integrity sha512-R4SAHWmZxbYA1U7+3iYGjNVNxT4ylPelVyoRTKOo56SQQY9OWjNZILc3KNQW8DmSgfsju0mdh1rWBtV+r7QXOA==
-  dependencies:
-    "@stablelib/ed25519" "^1.0.2"
-    "@stablelib/random" "^1.0.1"
-    "@stablelib/sha256" "1.0.1"
-    core-js "2.6.12"
-    crypto-js "^4.2.0"
-    eventemitter3 "^5.0.1"
-    isutf8 "^4.0.0"
-    multiformats "9.4.2"
-    process "^0.11.10"
-    tweetnacl "^1.0.3"
-    tweetnacl-util "^0.15.1"
-    ua-parser-js "^1.0.35"
-    uint8arrays "3.1.0"
-
 "@polka/url@^1.0.0-next.24":
   version "1.0.0-next.28"
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.28.tgz"
@@ -1621,6 +1602,25 @@
   version "4.2.2"
   resolved "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
+
+"@xuxinlai2002/core@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.npmjs.org/@xuxinlai2002/core/-/core-1.3.2.tgz"
+  integrity sha512-NW0myapTzq/rwse4TRziuDpLGb+WwDgq7YxPHezK2E5izhBfrromEBzReu9x9bVOWG8B3xE5GlTnZ6nLSlwW7A==
+  dependencies:
+    "@stablelib/ed25519" "^1.0.2"
+    "@stablelib/random" "^1.0.1"
+    "@stablelib/sha256" "1.0.1"
+    core-js "2.6.12"
+    crypto-js "^4.2.0"
+    eventemitter3 "^5.0.1"
+    isutf8 "^4.0.0"
+    multiformats "9.4.2"
+    process "^0.11.10"
+    tweetnacl "^1.0.3"
+    tweetnacl-util "^0.15.1"
+    ua-parser-js "^1.0.35"
+    uint8arrays "3.1.0"
 
 acorn-import-attributes@^1.9.5:
   version "1.9.5"

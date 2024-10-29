@@ -1,4 +1,4 @@
-import { SessionTypes, ProposalTypes, ConnectNamespaceMap, ConnectWalletNameSpace } from "@okxconnect/core";
+import { SessionTypes, ProposalTypes, ConnectNamespaceMap, ConnectWalletNameSpace } from "@xuxinlai2002/core";
 import Struct = SessionTypes.Struct;
 export declare function getAccountsChains(accounts: SessionTypes.Namespace["accounts"]): string[];
 export declare function nameSpaceToConnectWalletNameSpace(namespaces?: ConnectNamespaceMap): ConnectWalletNameSpace[];

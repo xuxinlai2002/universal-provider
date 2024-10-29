@@ -5,7 +5,7 @@ exports.nameSpaceToConnectWalletNameSpace = nameSpaceToConnectWalletNameSpace;
 exports.fillParamsToSession = fillParamsToSession;
 exports.isCaipNamespace = isCaipNamespace;
 exports.parseNamespaceKey = parseNamespaceKey;
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 function getAccountsChains(accounts) {
     const chains = [];
     accounts.forEach((account) => {

@@ -19,7 +19,7 @@ const sui_1 = __importDefault(require("./provider/providers/sui"));
 const constants_1 = require("./provider/constants");
 const eventemitter3_1 = __importDefault(require("eventemitter3"));
 const client_1 = require("./packages/sign-client/client");
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 const namespaces_1 = require("./packages/utils/namespaces");
 const solana_1 = __importDefault(require("./provider/providers/solana"));
 class OKXUniversalProvider {

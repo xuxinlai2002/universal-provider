@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const utils_1 = require("../utils");
 const constants_1 = require("../constants");
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 const JsonRpcProvider_1 = require("./rpc/JsonRpcProvider");
 const JsonRpcConnection_1 = require("./rpc/JsonRpcConnection");
 class Eip155Provider {

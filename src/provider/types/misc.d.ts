@@ -1,5 +1,5 @@
 import { IProvider, IJSONRpcProvider } from "./providers";
-import { RequestArguments } from "@okxconnect/core";
+import { RequestArguments } from "@xuxinlai2002/core";
 import EventEmitter from "eventemitter3";
 export interface RpcProviderMap {
     [chainId: string]: IProvider;

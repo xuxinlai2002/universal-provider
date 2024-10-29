@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SignClient = void 0;
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 const namespaces_1 = require("../utils/namespaces");
 const utils_1 = require("../../provider/utils");
 class SignClient extends core_1.ISignClient {

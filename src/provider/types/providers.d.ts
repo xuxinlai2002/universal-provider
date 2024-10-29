@@ -1,9 +1,9 @@
 import { IEthereumProvider } from "./misc";
 import { SignClient } from "../../packages/sign-client/client";
-import { SessionTypes, EngineTypes, SessionNamespace, RequestParams, RequestArguments } from "@okxconnect/core";
+import { SessionTypes, EngineTypes, SessionNamespace, RequestParams, RequestArguments } from "@xuxinlai2002/core";
 import { EventEmitter } from "eventemitter3";
 import ConnectParams = EngineTypes.ConnectParams;
-import { JsonRpcPayload, JsonRpcRequest } from "@okxconnect/core";
+import { JsonRpcPayload, JsonRpcRequest } from "@xuxinlai2002/core";
 export interface IProvider {
     readonly namespace: SessionNamespace;
     readonly client: SignClient;

@@ -1,6 +1,6 @@
 import { SignClient } from "../../packages/sign-client/client";
 import EventEmitter from "events";
-import { RequestParams, SessionNamespace, SessionTypes, SubProviderOpts } from "@okxconnect/core";
+import { RequestParams, SessionNamespace, SessionTypes, SubProviderOpts } from "@xuxinlai2002/core";
 import { HttpRpcProviderMap, IProvider } from "../types";
 declare class SolanaProvider implements IProvider {
     name: string;

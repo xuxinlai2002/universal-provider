@@ -12,8 +12,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsonRpcProvider = void 0;
 const eventemitter3_1 = require("eventemitter3");
 const types_1 = require("../../types");
-const core_1 = require("@okxconnect/core");
-const core_2 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
+const core_2 = require("@xuxinlai2002/core");
 class JsonRpcProvider extends types_1.IJSONRpcProvider {
     constructor(connection) {
         super(connection);

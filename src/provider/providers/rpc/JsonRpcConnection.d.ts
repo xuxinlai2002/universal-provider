@@ -1,6 +1,6 @@
 import { EventEmitter } from "eventemitter3";
 import { IJSONRpcConnection } from "../../types";
-import { JsonRpcPayload } from "@okxconnect/core";
+import { JsonRpcPayload } from "@xuxinlai2002/core";
 export declare class JsonRpcConnection implements IJSONRpcConnection {
     url: string;
     disableProviderPing: boolean;

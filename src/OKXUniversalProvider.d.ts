@@ -1,7 +1,7 @@
 import { IUniversalProvider, RpcProviderMap } from "./provider/";
 import EventEmitter from "eventemitter3";
 import { SignClient } from "./packages/sign-client/client";
-import { SessionTypes, EngineTypes, RequestArguments, UniversalProviderOpts } from "@okxconnect/core";
+import { SessionTypes, EngineTypes, RequestArguments, UniversalProviderOpts } from "@xuxinlai2002/core";
 import ConnectParams = EngineTypes.ConnectParams;
 export declare class OKXUniversalProvider implements IUniversalProvider, IUniversalProviderGenerator {
     client: SignClient;

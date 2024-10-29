@@ -1,7 +1,7 @@
 import { HttpRpcProviderMap, IProvider } from "../types";
 import { SignClient } from "../../packages/sign-client/client";
 import EventEmitter from "events";
-import { SessionTypes, RequestParams, SessionNamespace, SubProviderOpts } from "@okxconnect/core";
+import { SessionTypes, RequestParams, SessionNamespace, SubProviderOpts } from "@xuxinlai2002/core";
 declare class SuiProvider implements IProvider {
     name: string;
     client: SignClient;

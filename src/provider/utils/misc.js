@@ -14,7 +14,7 @@ exports.parseCaip10Account = parseCaip10Account;
 exports.convertChainIdToNumber = convertChainIdToNumber;
 exports.parseChainId = parseChainId;
 exports.mergeArrays = mergeArrays;
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 const namespaces_1 = require("../../packages/utils/namespaces");
 const lodash_1 = __importDefault(require("lodash"));
 function getRpcUrl(chainId, rpc, projectId) {

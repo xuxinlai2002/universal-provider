@@ -19,9 +19,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const core_1 = require("@okxconnect/core");
+const core_1 = require("@xuxinlai2002/core");
 const utils_1 = require("../utils");
-const core_2 = require("@okxconnect/core");
+const core_2 = require("@xuxinlai2002/core");
 class TonProvider {
     constructor(opts) {
         this.namespace = opts.namespace;

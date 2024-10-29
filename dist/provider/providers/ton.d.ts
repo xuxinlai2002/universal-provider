@@ -10,4 +10,4 @@ declare class TonProvider {
     setDefaultChain(chainId: any, rpcUrl: any): void;
     updateNamespace(args: any): void;
 }
-import core_1 = require("@okxconnect/core");
+import core_1 = require("@xuxinlai2002/core");
